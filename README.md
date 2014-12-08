@@ -9,9 +9,7 @@
 
 <br>
 <br>
-* Can execute the code several ways:  
-    + source("https://github.com/edlewis4/get_clean_data/run_analysis.R`
-    + Download the source to your working directory and Run  `source("./run_analysis.R")`  to execute.  
+* Download the source `run_analysis.R` to your working directory and inside R or RStudio Run  `source("./run_analysis.R")`  to execute.  
 * If the UCI HAR Dataset data does not exist in the workingdirectory, It will download it from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 * If it downloads the zip file, it will unzip it to `"./UCI HAR Dataset"` directory
 * It will then automatically execute the remaining commands to read in the data and write out the final tidy dataset "./samsung_HAR_out.txt"

@@ -105,6 +105,9 @@ This is a wide tidy dataset with each column a variable and each row an observat
 * The final datset is 180 observations x 68 variables  
     + 30 test subjects x 6 Activities = 180 observations.   
     + Subject_Num + Activity + 66 data measurements = 68 columns
+    + The values are the average of the measurements for that Activty/Subject. 
+        + a t prefix in the variable name denotes a time value (e.g `tBodyAcc-mean()-X`)
+        + an f prefix denotes a frequency (e.g `fBodyGyro-std()-Y`)
     
 ```{r}
 > head(result[1:6,1:6])

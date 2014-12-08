@@ -25,6 +25,8 @@ The features selected for this database come from the accelerometer and gyroscop
 
 a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). 
 
+Features are normalized and bounded within [-1,1].
+
 Raw files used for this analysis
 * `UCI HAR Dataset/train/X_train.txt`
 * `UCI HAR Dataset/train/y_train.txt`

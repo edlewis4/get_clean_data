@@ -98,7 +98,10 @@ file output is : `./samsung_HAR_out.txt`
 
 Average of variables by 'Activity' and 'Subject_num' <br>
 This is a wide tidy dataset with each column a variable and each row an observation <br>
-The final datset is 180 observations x 68 variables  [ 30 test subjects x 6 Activities = 180 observations] of the 68 variables.  
+* The final datset is 180 observations x 68 variables  
+    + 30 test subjects x 6 Activities = 180 observations.   
+    + Subject_Num + Activity + 66 data measurements = 68 columns
+    
 ```{r}
 > head(result[1:6,1:6])
   Subject_num           Activity tBodyAcc-mean()-X tBodyAcc-mean()-Y tBodyAcc-mean()-Z
